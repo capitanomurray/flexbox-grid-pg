@@ -20,7 +20,60 @@ a {
     text-decoration: none;
 }
 
+p {
+  font-size: 1.5rem;
+}
+
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  background-color: $white-color;
+}
+
+.header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  color: $grey-color;
+  text-transform: uppercase;
+  border-bottom: 2px solid $blue-color;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+    nav ul {
+      display: flex;
+      align-items: baseline;
+      list-style-type: none;
+
+        li {
+          margin-right: 15px;
+        }
+    }
+
+    button {
+      border: none;
+      padding: 8px 25px;
+      color: $white-color;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 1.25rem;
+      background-color: $green-color;
+    }
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: $blue-color;
 }
