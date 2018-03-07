@@ -113,3 +113,21 @@ body {
         }
     }
 }
+
+/* Main Section */
+
+.main {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 1rem;
+      color: $blue-color;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: .75rem;
+    }
+}

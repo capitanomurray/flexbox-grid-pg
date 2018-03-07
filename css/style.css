@@ -79,3 +79,15 @@ body {
     font-size: .75rem; }
     .sidebar ul li {
       padding: .25rem 0; }
+
+/* Main Section */
+.main {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4; }
+  .main h2 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    color: #50c6db; }
+  .main p {
+    font-size: 1rem;
+    margin-bottom: .75rem; }
