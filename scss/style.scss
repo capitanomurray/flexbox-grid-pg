@@ -185,6 +185,8 @@ body {
     }
 }
 
+/* Related Posts Section */
+
 .related-posts {
   grid-column: 3 / 4;
   grid-row: 5 / 6;
@@ -199,5 +201,22 @@ body {
 
     ul {
       margin-left: 1.5rem;
+    }
+}
+
+/* Footer Section */
+
+footer {
+  grid-column: 1 / 4;
+  grid-row: 6 / 7;
+  color: $white-color;
+  text-align: center;
+  padding: 20px 0;
+  background-color: $grey-color;
+
+    p {
+      color: $primary-color;
+      font-size: 12px;
+      padding: 10px;
     }
 }

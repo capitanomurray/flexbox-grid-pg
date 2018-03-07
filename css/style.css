@@ -129,6 +129,7 @@ body {
     .related-images .icon img {
       max-width: 100%; }
 
+/* Related Posts Section */
 .related-posts {
   grid-column: 3 / 4;
   grid-row: 5 / 6;
@@ -140,3 +141,16 @@ body {
     border-bottom: 1px solid #333; }
   .related-posts ul {
     margin-left: 1.5rem; }
+
+/* Footer Section */
+footer {
+  grid-column: 1 / 4;
+  grid-row: 6 / 7;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #9f9c9c; }
+  footer p {
+    color: #333;
+    font-size: 12px;
+    padding: 10px; }
