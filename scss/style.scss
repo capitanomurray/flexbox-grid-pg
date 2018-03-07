@@ -184,3 +184,20 @@ body {
         }
     }
 }
+
+.related-posts {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+  padding: 0 2rem;
+
+    h4 {
+      margin-bottom: .5rem;
+      padding-bottom: .5rem;
+      font-size: 1.5rem;
+      border-bottom: 1px solid $primary-color;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+    }
+}

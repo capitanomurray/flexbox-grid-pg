@@ -128,3 +128,15 @@ body {
     flex: 1 1 150px; }
     .related-images .icon img {
       max-width: 100%; }
+
+.related-posts {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+  padding: 0 2rem; }
+  .related-posts h4 {
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #333; }
+  .related-posts ul {
+    margin-left: 1.5rem; }
