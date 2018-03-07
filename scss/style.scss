@@ -40,6 +40,8 @@ body {
   background-color: $white-color;
 }
 
+/* Header */
+
 .header {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
@@ -76,4 +78,14 @@ body {
   font-size: 2rem;
   margin-right: 1.5rem;
   color: $blue-color;
+}
+
+/* Hero Section */
+
+.hero {
+  grid-column: 1 / 2;
+  grid-row-start: 2 / 3;
+  background-color: $blue-color;
+  min-height: 300px;
+  background-image: url("http://abbeyjfitzgerald.com/wp-content/uploads/2017/06/combined-layout-hero-1.jpg");
 }

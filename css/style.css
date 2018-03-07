@@ -25,6 +25,7 @@ body {
   grid-row-gap: 15px;
   background-color: #fff; }
 
+/* Header */
 .header {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
@@ -54,3 +55,11 @@ body {
   font-size: 2rem;
   margin-right: 1.5rem;
   color: #50c6db; }
+
+/* Hero Section */
+.hero {
+  grid-column: 1 / 2;
+  grid-row-start: 2 / 3;
+  background-color: #50c6db;
+  min-height: 300px;
+  background-image: url("http://abbeyjfitzgerald.com/wp-content/uploads/2017/06/combined-layout-hero-1.jpg"); }
